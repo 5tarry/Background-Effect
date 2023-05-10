@@ -9,6 +9,16 @@ Pose classification에 따른 다양한 Background effect 적용
 
 원하는 pose 이미지에 MoveNet을 적용하여 인체의 특징점을 추출한 뒤, 추출된 특징점을 바탕으로 pose label과 함께 pose classification 학습을 진행하였다. 학습된 model을 이용하여 라즈베리파이의 입출력(카메라, led, push button, 7 segment) 및 OpenCV 등 다양한 동작을 구현하였다.
 
+## Result
+- pose estimation 결과에 따른 이미지 합성
+![image](https://github.com/5tarry/Background-Effect/assets/109569066/ae5af7a1-bc39-4878-aff9-ec79645afe91)
+
+- Movenet 결과에 따른 배경 제거 및 대체
+![image](https://github.com/5tarry/Background-Effect/assets/109569066/49b01813-6d1e-4d37-b8f2-f2bd4cccf426)
+
+- 실행 화면
+![image](https://github.com/5tarry/Background-Effect/assets/109569066/a514b02c-5151-42d3-95c6-22bf6157706f)
+
 ## 참고
 ### MoveNet
 신체의 17개 키포인트를 감지하는 매우 빠르고 정확한 모델이며, 본 프로젝트에서 Pose Estimation 모델을 생성하기 위해 사용하였다.
