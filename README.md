@@ -11,11 +11,14 @@ Pose classification에 따른 다양한 Background effect 적용
 
 ## Result
 - pose estimation 결과에 따른 이미지 합성
-<img src="https://github.com/5tarry/Background-Effect/assets/109569066/ae5af7a1-bc39-4878-aff9-ec79645afe91.png" width="450"/>
+<img src="https://github.com/5tarry/Background-Effect/assets/109569066/ae5af7a1-bc39-4878-aff9-ec79645afe91.png" width="500"/>
+
 - Movenet 결과에 따른 배경 제거 및 대체
-<img src="https://github.com/5tarry/Background-Effect/assets/109569066/49b01813-6d1e-4d37-b8f2-f2bd4cccf426.png" width="450"/>
+<img src="https://github.com/5tarry/Background-Effect/assets/109569066/49b01813-6d1e-4d37-b8f2-f2bd4cccf426.png" width="500"/>
+
 - 실행 화면
-<img src="https://github.com/5tarry/Background-Effect/assets/109569066/a514b02c-5151-42d3-95c6-22bf6157706f.png" width="450"/>
+<img src="https://github.com/5tarry/Background-Effect/assets/109569066/a514b02c-5151-42d3-95c6-22bf6157706f.png" width="500"/>
+
 ## 참고
 ### MoveNet
 신체의 17개 키포인트를 감지하는 매우 빠르고 정확한 모델이며, 본 프로젝트에서 Pose Estimation 모델을 생성하기 위해 사용하였다.
