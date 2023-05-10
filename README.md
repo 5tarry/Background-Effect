@@ -17,4 +17,4 @@ Pose classification에 따른 다양한 Background effect 적용
 [오픈소스](https://www.tensorflow.org/lite/tutorials/pose_classification?hl=ko)를 본 프로젝트에 맞게 수정하여, movenet 결과 감지된 pose landmarks를 3가지 pose로 학습시켜 keras model을 생성하였다.
 
 ### [Grabcut](https://en.wikipedia.org/wiki/GrabCut)
-GrabCut은 그래프 컷을 기반으로 하는 이미지 분할 방법이다. 세그먼트화할 객체 주위의 사용자 지정 경계 상자로 시작하며 알고리즘은 가우스 혼합 모델을 사용하여 대상 객체와 배경의 색상 분포를 추정한다. 이는 픽셀 레이블 위에 마르코프 랜덤 필드를 구성하는 데 사용되며, 동일한 레이블을 갖는 연결된 영역을 선호하는 에너지 함수를 사용하고 그래프 컷 기반 최적화를 실행하여 값을 추론한다. 이 추정치는 경계 상자에서 가져온 원본보다 더 정확할 수 있으므로 이 절차는 수렴될 때까지 반복된다. OpenCV에서 GrabCut을 사용하기 위해선, foreground와 background를 구분하는 mask 이미지를 직접 설정해주어야 한다.
+GrabCut은 그래프 컷을 기반으로 하는 이미지 분할 방법이다. OpenCV에서 GrabCut을 사용하기 위해선, foreground와 background를 구분하는 mask 이미지를 직접 설정해주어야 한다.
